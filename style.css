@@ -1,0 +1,66 @@
+body,
+html {
+    width: 100%;
+    background: rgb(0, 255, 250);
+    background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,104,63,0.3) 91%);
+    font-size: 16px;
+    color: #000;
+}
+.person{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+.person__info{
+    margin: 0 32px;
+    padding: 32px;
+}
+.person__contacts{
+/**/
+}
+.person__details{
+/**/
+}
+.avatar{
+/**/
+}
+.avatar__picture{
+    border: 20px solid white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+.contacts{
+    /**/
+}
+.contacts__name{
+    font-style: bold;
+    font-size: 32px;
+}
+.contacts__role{
+    font-style: bold;
+    font-size: 19.2px;
+    padding-bottom: 32px;
+}
+.contacts__item{
+    font-style: bold;
+}
+.contacts__title{
+    font-style: bold;
+}
+.contacts__title:after{
+
+}
+.contacts__link{
+    color: gray;
+    font-style: italic;
+}
+.paragraph{
+    margin-bottom: 16px;
+}
+.paragraph_last{
+    margin-bottom: 48px;
+}
