@@ -28,10 +28,10 @@ html {
 /**/
 }
 .avatar__picture{
-    border: 10px solid white;
+    border: 20px solid white;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 .contacts{
     /**/
@@ -46,7 +46,7 @@ html {
     padding-bottom: 32px;
 }
 .contacts__item{
-    font-style: italic;
+    font-style: bold;
 }
 .contacts__title{
     font-style: bold;
