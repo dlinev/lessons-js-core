@@ -5,55 +5,57 @@
     <title>Студент Дмитрий Линев</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="person"> <!-- блок -->
-        <div class="person__info"><!-- элемент -->
-            <div class="avatar"><!-- блок -->
-                <img class="avatar__picture" src="./avatar.jpg" /> <!-- элемент -->
+        
+        <div class="person"> <!-- блок -->
+            <div class="person__info"><!-- элемент -->
+                <div class="avatar"><!-- блок -->
+                    <img class="avatar__picture" src="./avatar.jpg" /> <!-- элемент -->
+                </div>
+            </div>
+
+            <div class="person__contacts"><!-- элемент -->
+                <div class="contacts"><!-- блок -->
+                    <div class="contacts__name">Линев Дмитрий</div> <!-- элемент -->
+                    <div class="contacts__role">Главный инженер по разработке</div> <!-- элемент -->
+                    <div class="contacts__button">
+                        <nav class="menu">
+                            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+                        
+                            <label class="menu-open-button" for="menu-open">
+                                <span class="hamburger hamburger-1"></span>
+                                <span class="hamburger hamburger-2"></span>
+                                <span class="hamburger hamburger-3"></span>
+                            </label> 
+                            <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+                            <a href="#" class="menu-item"> <i class="fa fa-envelope-o"></i> </a>
+                            <a href="#" class="menu-item"> <i class="fa fa-vk"></i> </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="person__details"><!-- элемент -->
+                <p class="paragraph"><!-- элемент -->
+                    Я занимаюсь разработкой более 10 лет, но мой опыт связан только с backend-разработкой. Сейчас, у бизнес
+                    пользователей в банке есть потребность в использовании web-интерфейсов, в том числе и на мобильных
+                    устройствах.
+                </p>
+                <p class="paragraph"><!-- элемент -->
+                    Для разработчиков, которые не знают или имеют начальные знания frontend-разработки Банк предлагает
+                    внутренее решение - ДругКод (конструктор микро-приложений). С помощью которого можно реализовать простые
+                    web-интерфейсы.
+                </p>
+                <p class="paragraph"><!-- элемент -->
+                    Моя цель - получить необходимые знания в frontend-разработке для последующего применения их на текущем
+                    проекте. Пока это ДругКод, дальше с переходом на ППРБ, развитие в сторону ЕФС.
+                </p>
             </div>
         </div>
-
-        <div class="person__contacts"><!-- элемент -->
-            <div class="contacts"><!-- блок -->
-                <div class="contacts__name">Линев Дмитрий</div> <!-- элемент -->
-                <div class="contacts__role">Главный инженер по разработке</div> <!-- элемент -->
-
-                <ul class="contacts__links"><!-- элемент -->
-                    <li class="contacts__item"><!-- элемент -->
-                        <span class="contacts__title">Почта Sigma: </span>
-                        <a class="contacts__link" href="mailto: dlinev@sigma.ru">dlinev@alpha.ru</a>
-                    </li>
-                    <li class="contacts__item"><!-- элемент -->
-                        <span class="contacts__title">Почта Alpha: </span>
-                        <a class="contacts__link" href="mailto: dlinev@alpha.ru">dlinev@sigma.ru</a>
-                    </li>
-                    <li class="contacts__item"><!-- элемент -->
-                        <span class="contacts__title">Имя в Telegram: </span>
-                        <a class="contacts__link" href="">DmitryL</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="person__details"><!-- элемент -->
-            <p class="paragraph"><!-- элемент -->
-                Я занимаюсь разработкой более 10 лет, но мой опыт связан только с backend-разработкой. Сейчас, у бизнес
-                пользователей в банке есть потребность в использовании web-интерфейсов, в том числе и на мобильных
-                устройствах.
-            </p>
-            <p class="paragraph"><!-- элемент -->
-                Для разработчиков, которые не знают или имеют начальные знания frontend-разработки Банк предлагает
-                внутренее решение - ДругКод (конструктор микро-приложений). С помощью которого можно реализовать простые
-                web-интерфейсы.
-            </p>
-            <p class="paragraph"><!-- элемент -->
-                Моя цель - получить необходимые знания в frontend-разработке для последующего применения их на текущем
-                проекте. Пока это ДругКод, дальше с переходом на ППРБ, развитие в сторону ЕФС.
-            </p>
-        </div>
-    </div>
 </body>
 
 </html>
