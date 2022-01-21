@@ -26,6 +26,10 @@ html {
 }
 .avatar{
 /**/
+    transition: 1s;
+}
+.avatar:hover{
+    transform: rotate(180deg);
 }
 .avatar__picture{
     border: 20px solid white;
